@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'TiktokIcon';
+    src: url('fonts/tiktok.eot?e8uhnd');
+    src: url('fonts/tiktok.eot?e8uhnd#iefix') format('embedded-opentype'), url('fonts/tiktok.ttf?e8uhnd') format('truetype'), url('fonts/tiktok.woff?e8uhnd') format('woff'), url('fonts/tiktok.svg?e8uhnd#tiktok') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.fa-tiktok {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'TiktokIcon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.fa-tiktok:before {
+    content: "\e900";
+}
